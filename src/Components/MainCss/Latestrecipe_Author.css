@@ -1,0 +1,214 @@
+#reusable-button {
+  background-color: #430861 !important;
+  border: #430861 solid 2px;
+}
+#reusable-button:hover {
+  color: #d261f5 !important;
+  border: #430861 solid 2px;
+}
+
+.row .col-8 h1 {
+  color: #642886;
+  text-transform: uppercase;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 2.5rem;
+  margin-top: 10px;
+}
+.row .col-4 h4 {
+  color: #642886;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-top: 10px;
+}
+.author img {
+  border-radius: 5px;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+.read-more p {
+  margin-top: 15px;
+  font-size: 18px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  line-height: 24px;     /* fallback */
+  max-height: 144px;      /* fallback */
+  -webkit-line-clamp: 6; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+
+#subscribe p {
+  margin-top: 20px;
+  font-size: 18px;
+}
+@media only screen and (max-width: 1200px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+  .read-more p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    width: 720px;
+    line-height: 24px;     /* fallback */
+    max-height: 144px;      /* fallback */
+    -webkit-line-clamp: 6; /* number of lines to show */
+    -webkit-box-orient: vertical;
+  }
+  .row .col-4 h4 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: -200px; 
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+  .read-more p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    width: 700px;
+    line-height: 24px;     /* fallback */
+    max-height: 144px;      /* fallback */
+    -webkit-line-clamp: 6; /* number of lines to show */
+    -webkit-box-orient: vertical;
+  }
+  .row .col-4 h4 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: -200px; 
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+  .latest-recipe img {
+    width: 510px;
+    height: 700px;
+  }
+  .read-more p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    width: 450px;
+    line-height: 24px;     /* fallback */
+    max-height: 144px;      /* fallback */
+    -webkit-line-clamp: 6; /* number of lines to show */
+    -webkit-box-orient: vertical;
+  }
+  .row .col-4 h4 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: -200px; 
+  }
+}
+
+@media only screen and (max-width: 580px) { 
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+  .latest-recipe img {
+    width: 490px;
+    height: 650px;
+  }
+  
+}
+
+@media only screen and (max-width: 500px) { 
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+  .latest-recipe img {
+    width: 320px;
+    height: 420px;
+  }
+  .row .col-8 h1 {
+    font-size: 1.9rem;
+  }
+  .read-more p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    width: 300px;
+    line-height: 24px;     /* fallback */
+    max-height: 144px;      /* fallback */
+    -webkit-line-clamp: 4; /* number of lines to show */
+    -webkit-box-orient: vertical;
+  }
+  #reusable-button {
+    width: 200px;
+  }
+  .row .col-4 h4 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: -250px;
+  }
+}
+@media only screen and (max-width: 400px) { 
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+  .row .col-8 h1 {
+    font-size: 1.7rem;
+  }
+  .row .col-4 h4 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: -220px; 
+  }
+.author img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+  .latest-recipe img {
+    width: 289px;
+    height: 380px;
+  }
+  .read-more p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    width: 260px;
+    line-height: 24px;     /* fallback */
+    max-height: 144px;      /* fallback */
+    -webkit-line-clamp: 4; /* number of lines to show */
+    -webkit-box-orient: vertical;
+  }
+}
+
+@media only screen and (max-width: 280px) { 
+      .latest-recipe img {
+        width: 250px;
+        height: 350px;
+    }
+    .row .col-8 h1 {
+      font-size: 1.4rem;
+    }
+    .row .col-4 h4 {
+      font-size: 1.2rem;
+    }
+}
